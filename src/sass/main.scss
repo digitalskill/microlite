@@ -1,0 +1,125 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-vue/src/index";
+@import "../../node_modules/animate.css/animate";
+@import "agencytheme";
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: none !important;
+  scroll-padding: 50px;
+}
+
+img[src="img-blank"] {
+  visibility: hidden;
+}
+
+#modal-updated___BV_modal_outer_ {
+  z-index: 99999 !important;
+  text-align: center;
+
+  #modal-updated___BV_modal_content_ {
+    color: #fff;
+    background: $dark;
+  }
+
+  #modal-updated___BV_modal_header_ {
+    background: $light;
+    color: $dark;
+  }
+}
+
+.reloadready {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  margin: 10px;
+}
+
+.btn-link a {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 40px;
+  display: inline-block;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+  }
+}
+
+body,
+#app {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: none !important;
+}
+
+body,
+#mainNav {
+  padding-right: 0 !important;
+}
+
+.mh-100vh {
+  min-height: 100vh;
+}
+
+#app.preview {
+  .microlite-editor {
+    display: none !important;
+  }
+}
+
+.outline-none {
+  outline: none !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+.editpage-sidebar {
+  z-index: 99999;
+}
+
+#navbarNav .btn.dropdown-toggle {
+  border: none !important;
+  background: transparent !important;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.nobg {
+  background-image: none !important;
+}
+
+.box {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.image-container {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+/* QUILL EDITOR STYLES */
+.ql-align-center {
+  text-align: center !important;
+}

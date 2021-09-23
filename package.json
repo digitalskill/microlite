@@ -1,0 +1,83 @@
+{
+  "name": "vueshop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "\"npm run build-css\" && node src/CMS/createconfig.js && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-css": "node-sass --include-path scss src/sass/main.scss   src/assets/css/main.min.css --output-style compressed",
+    "cms": "node src/CMS/server.js",
+    "d": "firebase deploy",
+    "fb-d": "\"npm run build\" && npm run d",
+    "ftp-bd": "\"npm run build\" && node deploy/deploy.js",
+    "ftp-d": "node deploy/deploy.js",
+    "microlite": "concurrently --kill-others \"npm run cms\" \"npm run watch-css\" \"npm run serve\"",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "web-push-gen": "web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "prerender-spa-plugin": "^3.4.0",
+    "register-service-worker": "^1.7.1",
+    "rellax": "^1.12.1",
+    "sitemap-webpack-plugin": "^1.1.0",
+    "vue": "^2.6.11",
+    "vue-cli-plugin-ftp-deploy": "^0.1.16",
+    "vue-flag-icon": "^1.0.6",
+    "vue-gtag": "^1.14.0",
+    "vue-i18n": "^8.24.3",
+    "vue-meta": "^2.4.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.5.1",
+    "vue-scrollto": "^2.20.0",
+    "vuex": "^3.6.2",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "@vue/cli": "^4.5.13",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-service": "^4.1.1",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "ftp-deploy": "^2.4.1",
+    "mime-types": "^2.1.32",
+    "multer": "^1.4.2",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "register-service-worker": "^1.7.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

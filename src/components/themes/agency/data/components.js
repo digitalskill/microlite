@@ -1,0 +1,7 @@
+export { default as about } from '../about'
+export { default as contact } from '../contact.vue'
+export { default as home } from '../home.vue'
+export { default as portfolio } from '../portfolio.vue'
+export { default as services } from '../services.vue'
+export { default as page } from '../page.vue'
+export { default as team } from '../team.vue'

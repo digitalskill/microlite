@@ -1,0 +1,22 @@
+export default //--
+{"locale":{"en":{"menu":"About",
+"col2c1":"<h2 class=\"ql-align-center\">About Us</h2><p class=\"ql-align-center\">Under Construction</p>",
+"col2":"<h4 class=\"ql-align-center\"><br></h4>",
+"col3c2":"<h2 class=\"ql-align-center\">Threads</h2><p class=\"ql-align-center\">Portfolio caption</p>",
+"col3c368":"<h2 class=\"ql-align-center\">Threads</h2><p class=\"ql-align-center\">Portfolio caption</p>",
+"col3c293":"<h4>March 2011</h4><h4>An Agency is Born</h4><p>Lorem ipsum agency born sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>",
+"col3c3382":"<h4>2009-2011</h4><h4>Again - we're Humble</h4><p>Lorem ipsum humble bumble sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>",
+"col3c4125":"<h4>March 2011</h4><h4>An Agency is Born</h4><p>Lorem ipsum agency born sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>",
+"col3c5367":"<h4>BE PART OF OUR STORY</h4>",
+"col3":"<h2 class=\"ql-align-center\">About Us</h2><p class=\"ql-align-center\">Located in Hamilton, NZ we do <span style=\"color: rgb(0, 0, 0);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span></p><p class=\"ql-align-center\"><span style=\"color: rgb(0, 0, 0);\">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>"}},"classes":"bg-dark",
+"rows":[{"name":"",
+"classes":"",
+"cols":[{"content":"col2",
+"size":"col-12 rounded",
+"classes":"m-auto bg-light",
+"image":"/img/microlite/logo.svg"}]},{"name":"",
+"classes":"bg-light mt-4 rounded pb-5",
+"cols":[{"content":"col3",
+"size":"col-md-10 col-12 m-auto",
+"classes":"text-center"}]}]}
+//--
